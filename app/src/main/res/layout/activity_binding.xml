@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/talon"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/login_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:paddingLeft="48dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:paddingRight="48dp">
+        <Spinner
+            android:id="@+id/spn_bingding"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="4dp"
+            android:layout_gravity="center_horizontal"
+            android:entries="@array/server_list" />
+
+        <EditText
+            android:id="@+id/et_binding"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:hint="@string/hint"
+            android:textSize="@dimen/textSmall" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp">
+
+        <Button
+            android:id="@+id/btn_binding"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_shape"
+            android:text="@string/login"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            android:textSize="@dimen/textMid"
+            android:textColor="@color/text" />
+        <ProgressBar
+            android:id="@+id/pb_bind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bingding_bottom"
+            android:textSize="@dimen/textSmall"
+            android:textColor="@color/text"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

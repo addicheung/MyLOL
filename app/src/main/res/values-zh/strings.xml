@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的英雄联盟</string>
+    <string name="action_home">主页</string>
+    <string name="navigation_drawer_open">打开侧滑</string>
+    <string name="navigation_drawer_close">关闭侧滑</string>
+    <string name="nav_news">新闻</string>
+    <string name="nav_about">关于</string>
+    <string name="nav_exit">退出</string>
+    <string name="nav_other">其他</string>
+    <string name="duanwei_name">段位名称</string>
+    <string name="about">关于:\n本应用是Google Study Jams 2016 中国区活动结业作品</string>
+    <string name="author">作者:\n张啟迪（Addi）</string>
+    <string name="Github">Github：https://github.com/addiz/MyLOL</string>
+    <string name="version">VERSION 1.0</string>
+    <string name="pager_fir">我的信息</string>
+    <string name="pager_sec">常用英雄</string>
+    <string name="hint">游戏昵称</string>
+    <string name="login">进入</string>
+    <string name="basic_info">基本信息</string>
+    <string name="duanwei">段位</string>
+    <string name="bingding_bottom">英雄联盟中国区信息查询助手</string>
+    <string name="league_points">胜点</string>
+    <string name="warzone_updated">更新时间</string>
+    <string name="nav_change">切换绑定</string>
+    <string name="jindian">经典模式</string>
+    <string name="renji">人机对战</string>
+    <string name="luandou">大乱斗</string>
+    <string name="record">战绩(百分比胜率)</string>
+    <string name="none">没有数据....</string>
+    <string name="authorName">作者：张啟迪（Addi）</string>
+</resources>

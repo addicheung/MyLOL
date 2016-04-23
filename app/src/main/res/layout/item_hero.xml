@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:elevation="24dp"
+    app:cardCornerRadius="6dp"
+    android:layout_margin="@dimen/card_padding"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+    <ImageView
+        android:id="@+id/iv_hero_pic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/tv_hero_nametime"
+        android:text="英雄次数"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_height="40dp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

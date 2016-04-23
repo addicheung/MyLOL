@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--tier:段位
+rank:整数
+league_points:胜点
+warzone_updated:更新时间-->
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    android:elevation="24dp"
+    android:layout_marginTop="@dimen/card_padding"
+    android:layout_marginBottom="@dimen/card_padding"
+    android:layout_marginLeft="@dimen/card_padding"
+    android:layout_marginRight="@dimen/card_padding"
+    >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:gravity="center_horizontal"
+                android:background="@drawable/shape_cartextview"
+                android:textStyle="bold"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:text="@string/duanwei" />
+            <ImageView
+                android:id="@+id/iv_duanwei_name"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/dan_master"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_duanwei_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/duanwei_name"
+                android:textColor="@color/md_yellow"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/textSmall"
+                />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text="@string/league_points"
+                android:layout_marginLeft="8dp"
+                />
+            <TextView
+                android:id="@+id/tv_duanwei_leaguepoints"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_height="wrap_content"
+                android:text="@string/league_points"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="8dp"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="@string/warzone_updated"
+                    android:layout_marginLeft="8dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_duanwei_warzoneupdated"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:layout_height="wrap_content"
+                    android:text="@string/warzone_updated"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="8dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>

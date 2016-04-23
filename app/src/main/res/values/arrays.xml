@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="server_list">
+        <item>选择大区</item>
+        <item  >艾欧尼亚</item>
+        <item >祖安</item>
+        <item >诺克萨斯</item>
+        <item >班德尔城</item>
+        <item >皮尔特沃夫</item>
+        <item >战争学院</item>
+        <item >巨神峰</item>
+        <item >雷瑟守备</item>
+        <item>裁决之地</item>
+        <item>黑色玫瑰</item>
+        <item>暗影岛</item>
+        <item>钢铁烈阳</item>
+        <item >均衡教派</item>
+        <item >水晶之痕</item>
+        <item >影流</item>
+        <item>守望之海</item>
+        <item >征服之海</item>
+        <item>卡拉曼达</item>
+        <item >皮城警备</item>
+        <item >比尔吉沃特</item>
+        <item >德玛西亚</item>
+        <item >弗雷尔卓德</item>
+        <item >无畏先锋</item>
+        <item >恕瑞玛</item>
+        <item>扭曲丛林</item>
+        <item>巨龙之巢</item>
+        <item >教育网专区</item>
+    </string-array>
+    <string-array name="server_list2">
+        <item>选择大区</item>
+        <item  >电信一</item>
+        <item >网通一</item>
+        <item >电信二</item>
+        <item >电信三</item>
+        <item >网通二</item>
+        <item >电信六</item>
+        <item >电信七</item>
+        <item >电信八</item>
+        <item>电信九</item>
+        <item>电信十</item>
+        <item>电信十一</item>
+        <item>电信十二</item>
+        <item >电信十三</item>
+        <item >电信十四</item>
+        <item >电信十五</item>
+        <item>电信十六</item>
+        <item >电信十七</item>
+        <item>电信十八</item>
+        <item >电信十九</item>
+        <item >网通一</item>
+        <item >网通二</item>
+        <item >网通三</item>
+        <item >网通四</item>
+        <item >网通五</item>
+        <item>网通六</item>
+        <item>网通七</item>
+        <item >教育一</item>
+    </string-array>
+
+</resources>
