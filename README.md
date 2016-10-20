@@ -1,4 +1,5 @@
 # MyLOL
 MyLOL App
 
-Google StudyJams 中国区 结业作品
+英雄联盟玩家信息查询助手
+
